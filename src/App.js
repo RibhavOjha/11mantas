@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import img1 from './images/1.jpg';
 import img2 from './images/2.jpg';
 import img3 from './images/3.jpg';
-
+import Clients from './clients';
 const options = {
   loop: true,
       center: true,
@@ -49,7 +49,7 @@ class App extends Component {
               <div class="card card-block d-flex" >
               <div class="card-body align-items-center d-flex justify-content-center">EMILIANO AQUILANI</div>
                             <div class="shadow-effect">
-                                <img class="card-img-top" src={img1} alt={"Hi"}/>
+                                <img  src={img1} alt={"Hi"}/>
                                 <div class="card-body align-items-center d-flex justify-content-center"><a href='#top'>Blog Header</a></div>
                                 <div class="card-body align-items-center d-flex justify-content-center"><p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p> </div>
                             </div>
@@ -105,9 +105,10 @@ class App extends Component {
 
 
         
-
+        
       </OwlCarousel>
       </main>
+      <Clients />
       
     </div>
   );
