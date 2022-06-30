@@ -18,16 +18,19 @@ const options = {
       dots:true,
       autoplayTimeout: 4000,
       smartSpeed: 1500,
-      animateOut: true,
+      //animateOut: true,
       responsive: {
         0: {
-          items: 1
+          items: 1,
+          loop:true
         },
         768: {
-          items: 2
+          items: 2,
+          loop:true
         },
         1170: {
-          items: 3
+          items: 3,
+          loop: true
         }
       }
 
@@ -69,7 +72,7 @@ class App extends Component {
                             <div class="shadow-effect">
                                 <img src={img2} alt={"Hi"}/>
                                 <div class="card-body align-items-center d-flex justify-content-center"><a href='#top' >Blog Header 2</a> </div>
-                                <div class="card-body align-items-center d-flex justify-content-center"> <p>*Dummy Text* We should wake up early *Dummy text*  </p> </div>
+                                <div class="card-body align-items-center d-flex justify-content-center"> <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.  </p> </div>
                             </div>
                         </div>
 
