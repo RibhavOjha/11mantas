@@ -5,8 +5,9 @@ import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import img1 from './images/uni.jpg';
-//import img2 from './images/artsBuilding.jpg'
+import img1 from './images/1.jpg';
+import img2 from './images/2.jpg';
+import img3 from './images/3.jpg';
 
 const options = {
   loop: true,
@@ -66,9 +67,9 @@ class App extends Component {
               <div class="card card-block d-flex">
               <div class="card-body align-items-center d-flex justify-content-center">LARA ATKINSON </div>
                             <div class="shadow-effect">
-                                <img src={img1} alt={"Hi"}/>
-                                <div class="card-body align-items-center d-flex justify-content-center"><a href='#top' >Blog Header</a> </div>
-                                <div class="card-body align-items-center d-flex justify-content-center"> <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p> </div>
+                                <img src={img2} alt={"Hi"}/>
+                                <div class="card-body align-items-center d-flex justify-content-center"><a href='#top' >Blog Header 2</a> </div>
+                                <div class="card-body align-items-center d-flex justify-content-center"> <p>*Dummy Text* We should wake up early *Dummy text*  </p> </div>
                             </div>
                         </div>
 
@@ -86,7 +87,7 @@ class App extends Component {
               <div class="card card-block d-flex">
               <div class="card-body align-items-center d-flex justify-content-center">ANNA ITURBE</div>
                     <div class="shadow-effect">
-                        <img src={img1} alt={"Hi"}/>
+                        <img src={img3} alt={"Hi"}/>
                         <div class="card-body align-items-center d-flex justify-content-center">  <a href='#top'>Blog Header</a> </div>
                         <div class="card-body align-items-center d-flex justify-content-center"><p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p> </div>
                     </div>
