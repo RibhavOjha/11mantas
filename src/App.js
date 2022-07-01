@@ -9,6 +9,8 @@ import img1 from './images/1.jpg';
 import img2 from './images/2.jpg';
 import img3 from './images/3.jpg';
 import Clients from './clients';
+import Navbar from './navbar';
+
 const options = {
   loop: true,
       center: true,
@@ -39,6 +41,7 @@ class App extends Component {
   render() { 
     return (
     <div>
+      <Navbar/>
       <main className='container'> 
       <OwlCarousel className="slider-items owl-carousel" {...options}>
       <div className='card' >
