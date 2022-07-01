@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 const options = {
-    margin: 1000,
+    margin: 60,
     loop: true,
     autoplay: true,
     center: true,
@@ -134,13 +134,13 @@ class Clients extends Component {
                                     {/* <div class="background_layer"></div> */}
                                     {/* <div class="layer_content"> */}
                                         {/* <div class="testimonial_owlCarousel owl-carousel"> */}
-                                            <div class="card"> 
+                                            <div class="card card-block d-flex"> 
                                                 {/* <div class="testimonial_content"> */}
                                                     {/* <div class="testimonial_caption"> */}
-                                                        <h6>Robert Clarkson</h6>
+                                                    <div class="card-body align-items-center d-flex justify-content-center"><h6>Robert Clarkson</h6></div>
                                                         <span>CEO, Axura</span>
                                                     {/* </div> */}
-                                                    <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>
+                                                    The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.
                                                 {/* </div> */}
                                                 {/* <div class="images_box"> */}
                                                     {/* <div class="testimonial_img"> */}
@@ -148,10 +148,10 @@ class Clients extends Component {
                                                     {/* </div> */}
                                                 {/* </div> */}
                                             </div>
-                                            <div class="card"> 
+                                            <div class="card card-block d-flex"> 
                                                 <div class="testimonial_content">
                                                     <div class="testimonial_caption">
-                                                        <h6>Tim Morrison</h6>
+                                                    <div class="card-body align-items-center d-flex justify-content-center"> <h6>Tim Morrison</h6> </div>
                                                         <span>CEO, Axura</span>
                                                     </div>
                                                     <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>
@@ -162,10 +162,10 @@ class Clients extends Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="card"> 
+                                            <div class="card card-block d-flex"> 
                                                 <div class="testimonial_content">
                                                     <div class="testimonial_caption">
-                                                        <h6>Gareth Henshall</h6>
+                                                    <div class="card-body align-items-center d-flex justify-content-center"><h6>Gareth Henshall</h6></div>
                                                         <span>CEO, Axura</span>
                                                     </div>
                                                     <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>

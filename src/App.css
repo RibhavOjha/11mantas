@@ -15,7 +15,7 @@ img {
   height: 50px;
   width: 25px;
   cursor: pointer;
-  position: absolute;
+  position: sticky;
   top: 110px !important;
 }
 owl-carousel .owl-prev.disabled,
@@ -23,21 +23,27 @@ owl-carousel .owl-prev.disabled,
   pointer-events: none;
   opacity: 0.25;
 }
+/* previous nav button */
 .owl-carousel .owl-prev {
-  left: -35px;
+  left: 350px;
+  margin-bottom: 50px;
+  
 }
+
+/* next nav button */
 .owl-carousel .owl-next {
   right: -35px;
 }
 
 
 .containerClient {
-  width: 400px;
+  width: 350px;
   /* border: 15px solid orange; */
   padding: 0  px;
   margin-left: 75px;
   background-color: white;
   z-index: 2;
+  text-align: center;
 }
 .owl-carousel .prev-carousel:hover {
   background-position: 0px -53px;
