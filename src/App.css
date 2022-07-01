@@ -40,10 +40,12 @@ owl-carousel .owl-prev.disabled,
   width: 350px;
   /* border: 15px solid orange; */
   padding: 0  px;
-  margin-left: 75px;
+  margin-left: 50px;
   background-color: white;
   z-index: 2;
   text-align: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .owl-carousel .prev-carousel:hover {
   background-position: 0px -53px;

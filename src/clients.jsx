@@ -128,60 +128,50 @@ class Clients extends Component {
             {/* // </section> */}
             <div className='containerClient'>
             <OwlCarousel className='owl-theme' {...options}>
-                        {/* <div className='col-md-7'> */}
-                        {/* <div class="card"> */}
-                                {/* <div class="testimonial_container"> */}
-                                    {/* <div class="background_layer"></div> */}
-                                    {/* <div class="layer_content"> */}
-                                        {/* <div class="testimonial_owlCarousel owl-carousel"> */}
-                                            <div class="card card-block d-flex"> 
-                                                {/* <div class="testimonial_content"> */}
-                                                    {/* <div class="testimonial_caption"> */}
-                                                    <div class="card-body align-items-center d-flex justify-content-center"><h6>Robert Clarkson</h6></div>
-                                                        <span>CEO, Axura</span>
-                                                    {/* </div> */}
-                                                    The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.
-                                                {/* </div> */}
-                                                {/* <div class="images_box"> */}
-                                                    {/* <div class="testimonial_img"> */}
-                                                        <img class="img-center" src="https://cdn.pixabay.com/photo/2017/11/02/14/27/model-2911332__340.jpg" alt="images not found"/>
-                                                    {/* </div> */}
-                                                {/* </div> */}
-                                            </div>
-                                            <div class="card card-block d-flex"> 
-                                                <div class="testimonial_content">
-                                                    <div class="testimonial_caption">
-                                                    <div class="card-body align-items-center d-flex justify-content-center"> <h6>Tim Morrison</h6> </div>
-                                                        <span>CEO, Axura</span>
-                                                    </div>
-                                                    <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>
-                                                </div>
-                                                <div class="images_box">
-                                                    <div class="testimonial_img">
-                                                        <img class="img-center" src="https://media.istockphoto.com/photos/young-man-with-backpack-taking-selfie-portrait-on-a-mountain-smiling-picture-id1329031407?b=1&k=20&m=1329031407&s=170667a&w=0&h=J6qRqj9hbKtSVwIfMJhcRXf3AEyAOshph2IAbPHwNUo=" alt="images not found"/>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="card card-block d-flex"> 
-                                                <div class="testimonial_content">
-                                                    <div class="testimonial_caption">
-                                                    <div class="card-body align-items-center d-flex justify-content-center"><h6>Gareth Henshall</h6></div>
-                                                        <span>CEO, Axura</span>
-                                                    </div>
-                                                    <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>
-                                                </div>
-                                                <div class="images_box">
-                                                    <div class="testimonial_img">
-                                                        <img class="img-center" src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_960_720.jpg" alt="images not found" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        {/* </div> */}
-                                    {/* </div> */}
-                                {/* </div> */}
-                            {/* </div> */}
-
-                        {/* </div> */}
+                        
+                <div class="card card-block d-flex"> 
+                    <div class="testimonial_content">
+                        <div class="testimonial_caption">
+                            
+                            <div class="card-body align-items-center d-flex justify-content-center"><h6>Robert Clarkson</h6></div>
+                            <span>CEO, Axura</span>
+                            <br></br>
+                            The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.                    
+                            <img class="img-center" src="https://cdn.pixabay.com/photo/2017/11/02/14/27/model-2911332__340.jpg" alt="images not found"/>
+                               
+                        </div>
+                            
+                    </div>
+                </div>
+                <div class="card card-block d-flex"> 
+                    <div class="testimonial_content">
+                        <div class="testimonial_caption">
+                            
+                            <div class="card-body align-items-center d-flex justify-content-center"><h6>Rafeal Ramiro</h6></div>
+                            <span>CEO, Axura</span>
+                            <br></br>
+                            The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.                    
+                            <img class="img-center" src="https://media.istockphoto.com/photos/young-man-with-backpack-taking-selfie-portrait-on-a-mountain-smiling-picture-id1329031407?b=1&k=20&m=1329031407&s=170667a&w=0&h=J6qRqj9hbKtSVwIfMJhcRXf3AEyAOshph2IAbPHwNUo=" alt="images not found"/>
+                               
+                        </div>
+                            
+                    </div>
+                </div>
+                <div class="card card-block d-flex"> 
+                    <div class="testimonial_content">
+                        <div class="testimonial_caption">
+                            
+                            <div class="card-body align-items-center d-flex justify-content-center"><h6>Gareth Houghton</h6></div>
+                            <span>CEO, Axura</span>
+                            <br></br>
+                            The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.                    
+                            <img class="img-center" src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_960_720.jpg" alt="images not found"/>
+                               
+                        </div>
+                            
+                    </div>
+                </div>
+                                        
                         </OwlCarousel>
                 </div>
             </React.Fragment>
