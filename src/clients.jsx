@@ -10,7 +10,7 @@ const options = {
     margin: 60,
     loop: true,
     autoplay: true,
-    center: true,
+    center: false,
     items: 3,
     //dots: true,
     autoplayTimeout: 4000,
@@ -19,8 +19,9 @@ const options = {
     navText:["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
     responsive: {
         0:{ 
+           
+            items:1,
             loop:true,
-            items:1
         },
         768:{
             items:1,
