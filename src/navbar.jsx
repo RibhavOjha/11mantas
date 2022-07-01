@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import SearchIcon from '@material-ui/icons/Search';
+// import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+// import SearchIcon from '@material-ui/icons/Search';
 // import ButtonGroup from "@material-ui/core/ButtonGroup";
 // import logoVideo from './videos/video.mp4';
 // const navitems = document.getElementById('dropdownMenu')
@@ -88,8 +88,8 @@ class Navbar extends Component {
                             {/* <a className='nav-link' href='#top'> About Us</a> */}
                             
                         </ul>
-                        <button style={{borderColor:'white', marginRight:'40px'}}><ShoppingCartIcon/></button>
-                        <button style={{borderColor:'white',marginRight:'25px'}}><SearchIcon/></button>
+                        {/* <button style={{borderColor:'white', marginRight:'40px'}}><ShoppingCartIcon/></button>
+                        <button style={{borderColor:'white',marginRight:'25px'}}><SearchIcon/></button> */}
                         <button style={{backgroundColor:'Orange', color:'White', padding:'15px 32px', borderColor:'white', marginRight:'2px'}}>Appointment</button>
 
                         {/* <li class='nav-item'>
