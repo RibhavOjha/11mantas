@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Badge from "@material-ui/core/Badge";
+
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import SearchIcon from '@material-ui/icons/Search';
-import ButtonGroup from "@material-ui/core/ButtonGroup";
+// import ButtonGroup from "@material-ui/core/ButtonGroup";
 // import logoVideo from './videos/video.mp4';
 // const navitems = document.getElementById('dropdownMenu')
 // navitems.removeAttribute('style');
@@ -22,7 +22,7 @@ class Navbar extends Component {
                             <li class='nav-item'><a class='nav-link' href='#top'> Home</a></li>
                             <li class='nav-item'><a class='nav-link' href='#top'>About Us</a></li>
                             <li class='nav-item dropdown'>
-                                <a class='nav-link dropdown-toggle' type = ' button' href='#top' id="navbarDropdown" role='button ' data-toggle='dropdown' aria-haspopup="true" aria-expanded="false">Our Services</a>
+                                <a class='nav-link dropdown-toggle' type = ' button' href='#top' id="navbarDropdown" data-toggle='dropdown' >Our Services</a>
                                 <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
                                     <a class='dropdown-item' href='#top' style= {{color:'black', fontSize:'1rem'} }> Services</a>
                                     <a class='dropdown-item' href='#top' style= {{color:'black', fontSize:'1rem'} }> Services Full Page</a>
@@ -31,7 +31,7 @@ class Navbar extends Component {
                             <li class='nav-item dropdown'>
                                 <a class='nav-link dropdown-toggle' role='button' href='#top' id="navbarDropdown" data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'> Forecast </a>
                                 <div class='dropdown-menu' href='#top' id='dropdownMenu' aria-labelledby='navbarDropdown'>
-                                    <a class='dropdown-item' href='#top' style= {{color:'black', fontSize:'1rem'} } href='#top'> Aries</a>
+                                    <a class='dropdown-item' href='#top' style= {{color:'black', fontSize:'1rem'} } > Aries</a>
                                     <a class = 'dropdown-item' href='#top' style= {{color:'black', fontSize:'1rem'} }> Taurus</a>
                                     <a class='dropdown-item' href='#top' style= {{color:'black', fontSize:'1rem'} }> Gemini</a>
                                     <a class='dropdown-item'href='#top'  style= {{color:'black', fontSize:'1rem'} }> Cancer</a>
@@ -55,7 +55,7 @@ class Navbar extends Component {
                             </li>
                             
                             <li class='nav-item dropdown'>
-                                <a class='nav-link dropdown-toggle' role='button ' href='#top' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Blog</a>
+                                <a class='nav-link dropdown-toggle'  href='#top' data-toggle='dropdown'  aria-expanded='false'>Blog</a>
                                 <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
                                     <a class='dropdown-item' href='#top' style={{color:'black', fontSize:'1rem'}}> Blog Grid</a>
                                     <a class='dropdown-item' href='#top' style={{color:'black', fontSize:'1rem'}}> Blog Grid View Left</a>
