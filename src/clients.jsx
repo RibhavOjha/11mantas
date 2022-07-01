@@ -7,18 +7,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 const options = {
-    margin:1000,
+    margin: 1000,
     loop: true,
     autoplay: true,
     center: true,
-    items: 1,
+    items: 3,
     //dots: true,
     autoplayTimeout: 4000,
     smartSpeed: 1500,
     nav: true,
-    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+    navText:["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
     responsive: {
-        0:{
+        0:{ 
             loop:true,
             items:1
         },
